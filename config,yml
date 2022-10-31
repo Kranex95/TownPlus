@@ -1,0 +1,39 @@
+# Don't touch version!!
+version: beta
+
+# Languages codes:
+# These codes need to be the same as the name of the language file in folder /TownPlus/languages
+# Example:
+# en-US.yml --> Code en-US
+# es-ES.yml --> Code es-ESz
+languages:
+- en-US
+- es-ES
+
+# This is the default language for TownPlus
+language: en-US
+
+prefix: &7[&6Town&ePlus&7]
+
+# Plugin limits in the creation or configuration of towns. The set number is the maximum of that type. If you put 0 the plugin detects it as there is no limit.
+# Plots: limits of each type of plot by town
+# Ranks: limits of each type of rank by town
+limits:
+    towns: 4
+        plots: 30
+        users: 50
+    plots:
+        townhall: 1
+        farm/barn: 4
+        job: 10
+        warehouse: 1
+        mobs: 2
+        pvp: 1
+    ranks:
+        mayor: 1
+        police: 5
+        farmer: 10
+        lumberjack: 5
+        builder: 2
+        blacksmith: 3
+        gunsmith: 1
